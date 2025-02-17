@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  @apply bg-black text-green-400 font-mono;
+}
+
+.retro-container {
+  @apply bg-black border-2 border-green-400 p-5 mx-auto shadow-lg flex flex-col h-full items-center justify-between;
+}
+
+.retro-title {
+  @apply text-2xl uppercase;
+}
+
+.retro-icon {
+  @apply brightness-150 contrast-125 w-30 ;
+}
+
+.retro-text {
+  @apply text-lg flex flex-row gap-2 items-center;
+}
+
+
+.retro-description {
+  @apply italic text-xl my-1;
+}
